@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form html</title>
+</head>
+<link rel="stylesheet" href="">
+<body>
+   <h1> Form HTML</h1>
+   <form method="POST" action="response2.jsp" enctype="multipart/formdata"></form>
+   <label for="name">name:</label>
+   <input type="Text" id="name" placeholder="nama lengkap">
+   <p> 
+   <input type="radio" id="man" name-="Gender"><label for="man">man</label> 
+   <input type="radio" id="woman" name-="Gender"><label for="woman">woman</label>
+   </p>
+   <p>
+   <label for="Address">Address:</label>
+   <input type="Text" id="Address" placeholder="Addres kamu"> 
+   </p>
+   <p>
+   <label for="country">Country:</label>
+   <select name="country">
+    <option value=’IDN’>Indonesia</option> 
+            <option value=’MLY’> Malaysia </option> 
+            <option value=’IND’> India </option> 
+   </select>
+   </p>
+   <label for="Email">Email:</label>
+   <input type="text" id="Email" placeholder="Email Pribadi">
+   <p>
+   <label for="isinya">Photo</label>
+        <input type="file" name="" id="isinya">
+    </p>
+    <p>
+        <label for="comment">comment</label>
+        <textarea name="" id="comment" cols="15" rows=5"></textarea>
+        <input type="button" value="submit">
+    </p>
+</body>
+</html>
